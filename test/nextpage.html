@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <title>Dashboard</title>
 </head>
 <body>
-    <h1>hii</h1>
+    <div class="container">
+        <h1>Dashboard</h1>
+        <h2>Welcome Praval</h2>
+        <button class="button" onclick="fetchGitHubUsers()">Fetch Top 10 GitHub Users</button>
+        <select id="sortOptions" onchange="sortUsers()">
+            <option value="default">Default</option>
+            <option value="alphabetical">Alphabetical</option>
+        </select>
+        <ul id="userList" class="user-details"></ul>
+        <button class="button logout-button">Logout</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

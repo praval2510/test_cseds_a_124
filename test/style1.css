@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(232, 228, 228);
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(200, 200, 200);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #28a745;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button {
+    background-color: #dc3545;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.user-details {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.user-details li {
+    padding: 5px;
+    color: #333;
+}
+
+.user-details li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.user-details li:hover {
+    background-color: #e9ecef;
+}
